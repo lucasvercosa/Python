@@ -1,5 +1,13 @@
-#Tipos Dados:
-#Int é igual a números inteiros
-#Float é para os números com vírgula.
-#O bool é para armazenar valores verdadeiros ou falsos.
-#O sdr é para aramzenar textos.
+#Tipos de dados:
+
+#INT = números inteiros.
+
+#Float = números com (,).
+
+#Bool = valores verdadeiros ou falsos.
+
+#Str = armazena textos.
+
+n1= int(input("escolha o primeiro número"))
+n2= int(input("escolha o segundo número"))
+print=(n1+n2)
