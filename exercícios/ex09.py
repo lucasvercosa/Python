@@ -1,5 +1,3 @@
-nota1=float(input('Digite um valor'))
-nota2=float(input('Digite outro valor'))
-soma=float(nota1+nota2)
-media=float(nota1+nota2)/2
-print('A somafoi {} e sua média {}'.format(soma,media))
+n1=float(input('Digite a primeira nota'))
+n2=float(input('Digite a segunda nota'))
+print('A media entre {:.2f}, e {:.2f} é {:.2f}'.format(n1,n2,(n1+n2)/2))
