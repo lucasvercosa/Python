@@ -1,11 +1,19 @@
 import math
-num=float(input("Digite um número"))
-raiz=math.sqrt()
-print("A raíz de{} é igual a{}".format(num,raiz,math.ceil(raiz)))
-print("A raíz de{} é igual a{}".format(num,raiz,math.floor(raiz)))
+n=int(input('Digite um valor'))
+raiz=math.sqrt(n)
+#sqrt serve para tirar raiz quadrada
 
-#Importando funcionalidades específicas
-#From math import sqrt, ceil, floor
+print('A raiz de {} é igual a: {}'.format(n,math.ceil(raiz)))
+#.ceil para arredondar para cima
 
-num=int(input)
-raiz=sqrt(num)
+print('A raiz de {} é igual a: {}'.format(n,math.floor(raiz)))
+#.floor para arredondar para baixo
+
+
+# Funcionalidades especificas (para quando não quero importar a biblioteca): from de algo
+
+from math import sqrt,ceil,floor
+
+numero=int(input('Digite um numero'))
+raiz=sqrt(numero)
+print('A raiz de {} é igual a: {}'.format(n,floor(raiz)))
