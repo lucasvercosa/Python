@@ -1,20 +1,20 @@
-#tempo = int(input("Quantos anos tem seu carro?"))
-#if tempo <= 3:
-    #print('carro novo')
-#else:
-    #print('carro velho')
-#print('--fim--')
+tempo = int(input("Quantos anos tem seu carro?"))
+if tempo <= 3:
+    print('carro novo')
+else:
+    print('carro velho')
+print('--fim--')
 
-#tempo = int(input("Quantos anos tem seu carro?"))
-#print("carro novo" if tempo <= 3 else "carro velho")
-#print("--fim--")
+tempo = int(input("Quantos anos tem seu carro?"))
+print("carro novo" if tempo <= 3 else "carro velho")
+print("--fim--") #SIMPLIFICADA
 
-#nome = str(input('Qual é o seu nome? '))
-#if nome == 'Gustavo':
-    #print('Que nome lindo você tem!')
-#else:
-    #print('seu nome é tão normal')
-#print('Bom dia {}!'.format(nome)) #SIMPLIFICADA
+nome = str(input('Qual é o seu nome? '))
+if nome == 'Gustavo':
+    print('Que nome lindo você tem!')
+else:
+    print('seu nome é tão normal')
+print('Bom dia {}!'.format(nome))
 
 n1=float(input("Digite a primeira nota: "))
 n2=float(input("Digite a segunda nota: "))

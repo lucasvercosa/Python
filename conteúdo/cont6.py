@@ -44,4 +44,4 @@ print(frase.lstrip())#tira o espaço em branco da esquerda
 print(frase.split())# transformar o valor da variável em lista 
 
 print("@".join
-      (frase))#une um símbolo 
+      (frase))#une um símbolo
