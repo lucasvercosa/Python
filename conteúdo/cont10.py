@@ -1,0 +1,5 @@
+for se in range (1,6)
+print()
+for se in range (1,6)
+for se in range (7,1)
+print("1")
