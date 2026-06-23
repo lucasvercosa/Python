@@ -13,4 +13,8 @@ for c in range(1,5):
     elif idade > maior and sexo == "Mm":
         maior = idade
         senhor = nome
-    if sexo == "f" and idade
+    if sexo == "f" and idade < 20:
+        cont += 1
+print(f"A média de idade do grupo é de {media}")
+print(f"O homem mais velho tem {maior} anos e se chama {senhor}")
+print(f"Ao todo são {cont} mulheres com menos de 20 anos")

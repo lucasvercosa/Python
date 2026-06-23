@@ -1,0 +1,1 @@
+sexo = str(input('informe '))
