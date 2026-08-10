@@ -1,2 +1,4 @@
-nome=str(input("Digite o seu nome")).strip()
-print('Seu nnome tem Silva? {}'.format('Silva' in nome.lower()))
+frase = str(input("Digite uma frase: ")).strip().upper()
+print("A letra A apareceu {} vezes na frase.".format(frase.count("A")))
+print("A primeira letra A apareceu na posição {}".format(frase.find("A")+1))  # +1 para ficar na posição correta da escrita desconsiderando o último
+print("A última letra A apareceu na posição {}".format(frase.rfind("A")))  # procura da direita para esquerda
