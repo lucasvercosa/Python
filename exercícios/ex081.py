@@ -1,6 +1,12 @@
-num = []
-for c in range (0,5):
-    num.append(int(input(f'Digite um valor para a posição {c} ')))
-print(f'Você digitou os valores {num}')
-print(f'O maior valor digitado foi {max(num)} na posição {num.index(max(num))+1} ')
-print(f'O menor valor digitado foi {min(num)} na posição {num.index(min(num))+1} ')
+valor = []
+continuar = 's'
+while continuar == 's':
+    num = int(input('Digite um valor '))
+    if num in valor:
+        print('valor duplicado! não vou adicionar')
+    else:
+        valor.append(num)
+        print('Valor adicionado com sucesso')
+        continuar = str(input('Quer continuar ')).lower().strip()[8]
+    valor.sort()
+    print(f'Você digitou os valores {valor}')
