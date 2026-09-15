@@ -11,5 +11,18 @@ while True:
             mai = temp [1]
         if temp [1] < men:
             men = temp [1]
-        princ.append(temp[:])
-        temp.clear()
+    princ.append(temp[:])
+    temp.clear()
+    resp = str(input('Quer continuar? ')).lower().strip()[0]
+    if resp == 'n':
+        break
+print(f'Os dados foram {princ}')
+print(f'Você cadastrou {len(princ)} pessoas')
+print(f'O maior peso foi de {mai}kg peso de ',end='')
+for p in princ:
+    if p[1] == mai:
+        print(f'{p[0]}',end='')
+print(f' e o menor peso foi de {men}kg peso de ',end='')
+for p in princ:
+    if p[1] == men:
+        print(f'{p[0]}',end='')
