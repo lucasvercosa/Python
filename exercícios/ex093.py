@@ -1,12 +1,11 @@
-from random import randint
-from operator import itemgetter
-jogo = {'Jogador 1':randint (1,6),
-        'Jogador 2':randint (1,6),
-        'Jogador 3':randint (1,6),
-        'Jogador 4':randint (1,6)
-        }
-ranking= []
-print('valores sorteados')
-for k,v in jogo.items ():
-    print(f'{k} tirou {v} no dado')
-ranking = 
+jogador = {}
+partidas = []
+jogador ['nome'] = str(input('Nome do jogador: '))
+tot = int(input(f'Quantas partifdas {jogador["nome"]} jogou? '))
+for c in range (0,tot):
+    partidas.append(int(input(f'Quantos gols na partida{c}? ')))
+jogador ['gols'] = partidas [:]
+jogador ['total'] = sum(partidas)
+for k,v in jogador.items():
+    print(f'O campo {k} tem o valor {v}')
+print(f'O jogador {jogador["nome"]} jogou {len(jogador["gols"])} partidas')
